@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Instagram, Youtube, Twitter, MapPin, Phone, Send } from 'lucide-react';
+import { Mail, Instagram, Youtube, Twitter, Send } from 'lucide-react';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
