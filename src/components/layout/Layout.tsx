@@ -1,7 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import Header from './Header';
 import { Footer } from './Footer';
 import { usePathname } from 'next/navigation';

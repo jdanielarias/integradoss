@@ -13,7 +13,7 @@ const ContactPage = () => {
 
   const [sending, setSending] = useState(false);
 
-  const handleSubmit = async (e:any) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     setSending(true);
     
@@ -30,7 +30,7 @@ const ContactPage = () => {
     setSending(false);
   };
 
-  const handleChange = (e:any) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,

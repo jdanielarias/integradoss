@@ -1,6 +1,6 @@
 "use client"
 import { motion } from 'framer-motion';
-import { Book, BookOpen, FileText, Link } from 'lucide-react';
+import {  Link } from 'lucide-react';
 
 interface Publication {
   title: string;
